@@ -23,7 +23,7 @@ public class primo {
         if (ehPrimo){
             System.out.println("é primo");
         }else{
-            System.out.println("Não é primo");
+            System.out.println("Não é primo.");
         }
         entrada.close();
     }
