@@ -1,4 +1,4 @@
-import java.util.Locale;
+package exercicios;
 
 import static java.util.Locale.US;
 import static java.util.Locale.setDefault;
