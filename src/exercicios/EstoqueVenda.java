@@ -13,7 +13,7 @@ public class EstoqueVenda {
 
         System.out.print("Informe o preço unitário: ");
         double precoUnitario = sc.nextDouble();
-        sc.nextLine(); // consumir o \n deixado pelo nextDouble()
+        sc.nextLine();
 
         System.out.print("Informe a quantidade em estoque: ");
         int quantidadeProduto = sc.nextInt();
@@ -26,7 +26,7 @@ public class EstoqueVenda {
         int querVender = sc.nextInt();
         if (querVender <= quantidadeProduto) {
             double valorVenda = querVender * precoUnitario;
-            quantidadeProduto -= querVender;  // atualiza o estoque aqui
+            quantidadeProduto -= querVender;
             System.out.printf("Venda realizada! Valor total: R$ %.2f%n", valorVenda);
         } else {
             System.out.println("O estoque é insuficiente.");
@@ -34,7 +34,7 @@ public class EstoqueVenda {
 
         System.out.print("\nQuantas unidades deseja repor? ");
         int repor = sc.nextInt();
-        quantidadeProduto += repor;  // atualiza o estoque
+        quantidadeProduto += repor;
 
         System.out.println("\n--- RELATÓRIO FINAL ---");
         System.out.println("Estoque final: " + quantidadeProduto + " unidades");
