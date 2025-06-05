@@ -1,3 +1,5 @@
+package Estrutura_Sequencial;
+
 import java.util.Scanner;
 
 public class primo {
@@ -21,9 +23,9 @@ public class primo {
         }
 
         if (ehPrimo){
-            System.out.println("é primo");
+            System.out.println("é Estrutura_Sequencial.primo");
         }else{
-            System.out.println("Não é primo.");
+            System.out.println("Não é Estrutura_Sequencial.primo.");
         }
         entrada.close();
     }

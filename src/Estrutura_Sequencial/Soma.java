@@ -1,3 +1,5 @@
+package Estrutura_Sequencial;
+
 public class Soma {
     public static void main(String[] args) {
         int num1 = 10;

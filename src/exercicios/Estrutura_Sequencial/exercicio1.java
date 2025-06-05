@@ -16,7 +16,7 @@ public class exercicio1 {
         valor2 = sc.nextInt();
 
         soma = valor1 + valor2;
-        System.out.printf("Soma é %d", soma);
+        System.out.printf("Estrutura_Sequencial.Soma é %d", soma);
 
         sc.close();
     }
