@@ -13,7 +13,7 @@ public class ex3 {
         System.out.println("Digite o segundo número");
         int B = scanner.nextInt();
 
-        if (A % B == 0 || B % A == 0){
+        if (A % B == 0 || B % A == 0) {
             System.out.println("São multiplo");
         } else {
             System.out.println("Não são multiplos");

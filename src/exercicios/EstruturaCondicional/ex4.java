@@ -15,7 +15,7 @@ public class ex4 {
 
         int duracao;
         if (horaInicial < horaInicial) {
-            duracao =  horaFinal - horaInicial;
+            duracao = horaFinal - horaInicial;
         } else {
             duracao = 24 - horaInicial + horaFinal;
         }
