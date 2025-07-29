@@ -22,5 +22,6 @@ public class ex6 {
         } else {
             System.out.println("Fora do intervalo");
         }
+        scanner.close();
     }
 }

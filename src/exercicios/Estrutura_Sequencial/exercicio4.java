@@ -29,6 +29,6 @@ public class exercicio4 {
         System.out.println("Numero = " + numero);
         System.out.printf("Salário = R$ %.2f", salario);
 
-
+        sc.close();
     }
 }
