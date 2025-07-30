@@ -9,6 +9,7 @@ public class atribuicaoAcumulativa {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Quantos minutos usados?");
         int minutos = scanner.nextInt();
 
         double conta = 50.0;
