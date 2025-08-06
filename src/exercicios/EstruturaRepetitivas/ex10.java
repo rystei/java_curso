@@ -13,5 +13,6 @@ public class ex10 {
             if (i % 2 != 0){
                 System.out.println(i);            }
         }
+        sc.close();
     }
 }
