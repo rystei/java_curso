@@ -28,5 +28,7 @@ public class pomodoro {
         System.out.printf("Tempo de pausas curtas: %.2f min%n", tempo_pausas_curtas);
         System.out.printf("Tempo de pausas longas: %.2f min%n", tempo_pausas_longas);
         System.out.printf("Tempo total (trabalho + pausas): %.2f min%n", tempo_total);
+
+        sc.close();
     }
 }
