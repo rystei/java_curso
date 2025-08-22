@@ -21,5 +21,6 @@ public class OperadoresBitwise {
             System.out.println("6th bit is false!");
         }
 
+        sc.close();
     }
 }

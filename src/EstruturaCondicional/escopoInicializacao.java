@@ -25,5 +25,7 @@ public class escopoInicializacao {
             discount = 0;
         }
         System.out.println(discount);
+
+        sc.close();
     }
 }
