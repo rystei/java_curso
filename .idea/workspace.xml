@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/secao3/FirstReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao10/listas/SomaVetor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao10/listas/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao10/listas/ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao7/outrosTopicosJava/EstoqueVenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao7/outrosTopicosJava/EstoqueVenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao7/outrosTopicosJava/exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao7/outrosTopicosJava/pomodoro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc1/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc1/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc1/entities/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc1/entities/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc2/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc2/entities/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc3/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao8/introPOO/exerc3/entities/Students.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao9/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao9/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao9/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao9/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao10/vetores/Vetores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao10/vetores/Vetores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao10/vetores/application/VetorObjetoClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao10/vetores/application/VetorObjetoClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao10/vetores/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao10/vetores/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Estudos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Estudos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Perfil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Soma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Subtracao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Teste_processamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/primo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/IfElse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/atribuicaoAcumulativa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/atribuicaoAcumulativa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/escopoInicializacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/switchCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao5/EstruturaCondicional/ternaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/ExampleDebug.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/For.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/While.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/FuncoesInterresantesStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/FuncoesInterresantesStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/FuncoesSintaxes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/OperadoresBitwise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/OperecaoSplit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao7/outrosTopicosJava/OutrosTopicosJava.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao8/IntroPOO/ResolvendoProblemaSemPOO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao8/IntroPOO/ResolvendoProblemaSemPOO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao8/IntroPOO/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao8/SegundoProblemaPOO/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao8/SegundoProblemaPOO/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao8/SegundoProblemaPOO/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao8/SegundoProblemaPOO/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/construtor/Construtor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/construtor/Construtor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/construtor/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/construtor/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/encapsulamento/Encapsulamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/encapsulamento/Encapsulamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/encapsulamento/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/encapsulamento/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/palavraThis/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/palavraThis/This.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/sobrecarga/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/sobrecarga/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao9/sobrecarga/Sobrecarga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao9/sobrecarga/Sobrecarga.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rystei&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rystei/java_curso.git&quot;,
+    &quot;accountId&quot;: &quot;9d37f07b-65af-488d-be5c-fae25098b8b2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="37x0JfH4v1w996cfA5YfP3ILXdD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Estudos.executor": "Run",
+    "Application.FirstReview.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/code/java_curso",
+    "onboarding.tips.debug.path": "D:/code/java_curso/src/untitled/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java_curso" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java_curso" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="" />
+      <created>1767829345831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767829345831</updated>
+    </task>
+    <servers />
+  </component>
+</project>
