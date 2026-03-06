@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="">
+    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="Review entrada e saida de dados">
+      <change afterPath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/funcaoMatematicas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secao3/FirstReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao3/FirstReview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao4/Estrutura_Sequencial/exercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/Estrutura_Sequencial/Estudos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao4/principal/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +35,12 @@
     &quot;assignee&quot;: &quot;rystei&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/rystei/java_curso.git",
-    "accountId": "69e7a4ea-5a58-45cb-80af-1a3f3f4e540c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rystei/java_curso.git&quot;,
+    &quot;accountId&quot;: &quot;69e7a4ea-5a58-45cb-80af-1a3f3f4e540c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -47,6 +53,10 @@
   "keyToString": {
     "Application.Estudos.executor": "Run",
     "Application.FirstReview.executor": "Run",
+    "Application.exercicio1.executor": "Run",
+    "Application.exercicio2.executor": "Run",
+    "Application.exercicio3.executor": "Run",
+    "Application.funcaoMatematicas.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -61,7 +71,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.exercicio3">
     <configuration name="FirstReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="secao3.FirstReview" />
       <module name="java_curso" />
@@ -75,19 +85,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao4.Estrutura_Sequencial.exercicio1" />
       <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios.secao4.Estrutura_Sequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao4.Estrutura_Sequencial.exercicio2" />
       <module name="java_curso" />
-      <option name="filePath" />
-      <method v="2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios.secao4.Estrutura_Sequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao4.Estrutura_Sequencial.exercicio3" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios.secao4.Estrutura_Sequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="funcaoMatematicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secao4.Estrutura_Sequencial.funcaoMatematicas" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao4.Estrutura_Sequencial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exercicio3" />
+        <item itemvalue="Application.exercicio2" />
+        <item itemvalue="Application.exercicio1" />
+        <item itemvalue="Application.funcaoMatematicas" />
         <item itemvalue="Application.FirstReview" />
       </list>
     </recent_temporary>
@@ -100,6 +155,19 @@
       <option name="presentableId" value="Default" />
       <updated>1767829345831</updated>
     </task>
+    <task id="LOCAL-00001" summary="Review entrada e saida de dados">
+      <option name="closed" value="true" />
+      <created>1772550661172</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772550661172</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Review entrada e saida de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Review entrada e saida de dados" />
   </component>
 </project>
