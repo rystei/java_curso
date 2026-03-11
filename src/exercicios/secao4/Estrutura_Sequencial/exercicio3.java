@@ -18,6 +18,7 @@ public class exercicio3 {
 
         System.out.println("DIFERENCA = " + DIFERENCA);
 
+        scanner.close();
     }
 
 }

@@ -21,6 +21,6 @@ public class exercicio5 {
 
         System.out.println("VALOR A PAGAR: R$ " + total );
 
-
+        scanner.close();
     }
 }

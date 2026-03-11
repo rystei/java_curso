@@ -9,7 +9,6 @@ public class exercicio2 {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
-
         double raio;
         raio = scanner.nextDouble();
         double pi = 3.14159;
@@ -17,5 +16,6 @@ public class exercicio2 {
 
         System.out.printf("AREA = " + String.format("%.4f", area));
 
+        scanner.close();
     }
 }

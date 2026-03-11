@@ -17,6 +17,8 @@ public class exercicio4 {
 
         System.out.println("NUMBER = "  + numero);
         System.out.printf("Salary = U$ " + String.format("%.2f",salarioTotal));
+
+        sc.close();
     }
 
 }
