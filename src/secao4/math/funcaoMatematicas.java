@@ -1,4 +1,4 @@
-package secao4.Estrutura_Sequencial;
+package secao4.math;
 
 public class funcaoMatematicas {
 
