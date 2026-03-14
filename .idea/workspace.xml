@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="review estrutura condicional">
+    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="review: estrutura condicional exercicio 1">
+      <change afterPath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao5/EstruturaCondicional/ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
     "Application.Estudos.executor": "Run",
     "Application.FirstReview.executor": "Run",
     "Application.ex1.executor": "Run",
+    "Application.ex2.executor": "Run",
     "Application.exercicio4.executor": "Run",
     "Application.exercicio5.executor": "Run",
     "Application.ifElse.executor": "Run",
@@ -65,13 +66,13 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex1">
-    <configuration name="FirstReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="secao3.FirstReview" />
+  <component name="RunManager" selected="Application.ex2">
+    <configuration name="ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao5.EstruturaCondicional.ex1" />
       <module name="java_curso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="secao3.*" />
+          <option name="PATTERN" value="exercicios.secao5.EstruturaCondicional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicios.secao5.EstruturaCondicional.ex1" />
+    <configuration name="ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao5.EstruturaCondicional.ex2" />
       <module name="java_curso" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex2" />
         <item itemvalue="Application.ex1" />
         <item itemvalue="Application.ifElse" />
         <item itemvalue="Application.exercicio5" />
         <item itemvalue="Application.exercicio4" />
-        <item itemvalue="Application.FirstReview" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773519690130</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="review: estrutura condicional exercicio 1">
+      <option name="closed" value="true" />
+      <created>1773520229508</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773520229508</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +191,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicios modulo 4" />
     <MESSAGE value="review estrutura condicional" />
-    <option name="LAST_COMMIT_MESSAGE" value="review estrutura condicional" />
+    <MESSAGE value="review: estrutura condicional exercicio 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="review: estrutura condicional exercicio 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
