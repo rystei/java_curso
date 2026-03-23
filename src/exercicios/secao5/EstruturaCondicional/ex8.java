@@ -20,7 +20,7 @@ public class ex8 {
             double imposto = (renda - 3000.0) * 0.18 + 1000.0 * 0.08;
             System.out.printf("R$ %.2f%n", imposto);
         } else  {
-            double imposto = (renda - 4500.0)* 0.28 + 1500.00 * 0.18 + 1000.0 * 0.08;
+            double imposto = (renda - 4500.0) * 0.28 + 1500.00 * 0.18 + 1000.0 * 0.08;
             System.out.printf("R$ %.2f%n", imposto);
         }
     }
