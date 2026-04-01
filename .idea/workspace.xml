@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="Alterando gitignore">
-      <change afterPath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/While.java" afterDir="false" />
+    <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="Estruturas repetitivas - While">
+      <change afterPath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/For.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/secao6/EstruturaRepetitivas/DoWhile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +46,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DoWhile.executor": "Run",
     "Application.Entrada.executor": "Run",
     "Application.EntradaQuebraLinha.executor": "Run",
     "Application.Estudos.executor": "Run",
     "Application.FirstReview.executor": "Run",
+    "Application.For.executor": "Debug",
     "Application.SwitchCase.executor": "Run",
     "Application.While.executor": "Run",
+    "Application.funcaoMatematicas.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -65,6 +69,54 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.For">
+    <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secao6.EstruturaRepetitivas.DoWhile" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao6.EstruturaRepetitivas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secao6.EstruturaRepetitivas.For" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao6.EstruturaRepetitivas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="funcaoMatematicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="secao4.math.funcaoMatematicas" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="secao4.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.For" />
+        <item itemvalue="Application.DoWhile" />
+        <item itemvalue="Application.funcaoMatematicas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="" />
@@ -105,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774364947993</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Estruturas repetitivas - While">
+      <option name="closed" value="true" />
+      <created>1774371992371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774371992371</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +184,8 @@
     <MESSAGE value="Exemplo switch-case" />
     <MESSAGE value="Exercicios estrutura conficional 8" />
     <MESSAGE value="Alterando gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterando gitignore" />
+    <MESSAGE value="Estruturas repetitivas - While" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estruturas repetitivas - While" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
