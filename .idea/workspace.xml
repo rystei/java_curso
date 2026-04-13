@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b53767d-e277-43f8-b33d-699872cb3670" name="Changes" comment="Estruturas repetitivas - for">
+      <change afterPath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/secao6/EstruturaRepetitivas/ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "Application.SwitchCase.executor": "Run",
     "Application.While.executor": "Run",
     "Application.ex1.executor": "Run",
+    "Application.ex2.executor": "Run",
     "Application.funcaoMatematicas.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -69,7 +70,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex1">
+  <component name="RunManager" selected="Application.ex2">
     <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="secao6.EstruturaRepetitivas.DoWhile" />
       <module name="java_curso" />
@@ -109,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicios.secao6.EstruturaRepetitivas.ex2" />
+      <module name="java_curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicios.secao6.EstruturaRepetitivas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="funcaoMatematicas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="secao4.math.funcaoMatematicas" />
       <module name="java_curso" />
@@ -124,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex2" />
         <item itemvalue="Application.ex1" />
         <item itemvalue="Application.For" />
         <item itemvalue="Application.DoWhile" />
