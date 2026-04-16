@@ -1,26 +1,63 @@
-# ===== Java =====
+# ===== Compilação Java =====
 *.class
+
+# ===== Logs =====
 *.log
 
-# ===== Build =====
+# ===== Build directories =====
 target/
-out/
 build/
+out/
 
-# ===== Package =====
+# ===== Pacotes =====
 *.jar
 *.war
 *.ear
 
-# ===== IDE IntelliJ =====
+# ===== Maven =====
+.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# ===== Gradle =====
+.gradle/
+build/
+
+# ===== IntelliJ IDEA =====
 .idea/
 *.iml
-*.xml
+*.iws
 
-# ===== OS =====
+# ===== Eclipse =====
+.project
+.classpath
+.settings/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Sistema operacional =====
 .DS_Store
 Thumbs.db
 
-# ===== JVM Crash Logs =====
+# ===== Arquivos temporários =====
+*.swp
+*.swo
+*~
+
+# ===== JVM crash logs =====
 hs_err_pid*
 replay_pid*
+
+# ===== Arquivos de ambiente =====
+.env
+.env.*
+
+# ===== Coverage / testes =====
+coverage/
+*.exec
+
+# ===== Node (caso tenha frontend junto) =====
+node_modules/
+
+# ===== Docker =====
+docker-compose.override.yml
