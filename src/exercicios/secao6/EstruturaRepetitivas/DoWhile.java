@@ -7,17 +7,17 @@ public class DoWhile {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
-        char continuar;
+        char repete;
         do {
-            System.out.println("Digite um numero em celsius");
+
+            System.out.println("Digite a temperatura em Celsius: ");
             double c = scanner.nextDouble();
             double f = (c * 1.8) + 32;
-            System.out.println("equivalente em farenheit " + f);
-            System.out.println("Deseja continuar (s/n)");
-            continuar = scanner.next().charAt(0);
-        } while (continuar != 'n');
-            System.out.println("Fim");
+            System.out.printf("Equivalente em Fahrenheit: %.1f%n", f);
+            System.out.println("Desejar repetir (s/n)?");
+            repete = scanner.next().charAt(0);
+        } while (repete != 'n');
         scanner.close();
+
     }
 }
