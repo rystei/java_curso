@@ -10,18 +10,22 @@ public class Product {
         return price * quantity;
     }
 
-    public void showProduct(){
-        System.out.println("Nome: " + name);
-        System.out.println("Preço: " + price);
-        System.out.println("Quantidade: " + quantity);
-    }
-
     public void addProducts(int x){
         quantity += x;
     }
 
     public void removeProducts(int x){
         quantity -= x;
+    }
+
+    public String toString(){
+        return "Product data: "
+                + name +
+                ", $ " +
+                String.format("%.2f", price) +
+                " , " + quantity +
+                " units, Total: $ "
+                + String.format("%.2f", totalValueInStock());
     }
 
 }
