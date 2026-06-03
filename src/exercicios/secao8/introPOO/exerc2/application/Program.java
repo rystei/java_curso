@@ -28,7 +28,7 @@ public class Program {
         double percentage = scanner.nextDouble();
         employee.increaseSalary(percentage);
 
-        System.out.println("Update data " + employee.name + ", $ " + employee.netSalary());
+        System.out.println("Update data " + employee.name + ", $ " + employee.grossSalary);
 
     }
 }

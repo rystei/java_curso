@@ -11,7 +11,7 @@ public class Employee {
     }
 
     public void increaseSalary(double percentage) {
-        double perce = (grossSalary / percentage) + netSalary();
-
+         this.grossSalary = (grossSalary / percentage) + netSalary();
     }
+
 }
