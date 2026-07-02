@@ -3,7 +3,6 @@ package exercicios.secao9.application;
 import exercicios.secao9.entities.Account;
 
 import java.util.Locale;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Program {
@@ -12,22 +11,24 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
+        Account x;
+
         System.out.print("Enter account number: ");
         int number = scanner.nextInt();
         scanner.nextLine();
 
         System.out.print("Enter account holder: ");
-        String nome = scanner.nextLine();
+        String holder = scanner.nextLine();
 
         System.out.print("Is there na initial deposit (y/n)? ");
-        String initialDeposit = scanner.nextLine();
+        char response = scanner.next().charAt(0);
 
-        Account x = new Account(number, nome);
-
-        if (Objects.equals(initialDeposit, "y")) {
+        if (response == 'y') {
             System.out.print("Enter initial deposit value: ");
-            double deposito = scanner.nextDouble();
-            x.deposit(deposito);
+            double initialDeposit = scanner.nextDouble();
+            x = new Account(number, holder, initialDeposit);
+        } else {
+            x = new Account(number, holder);
         }
 
         System.out.println();
@@ -36,17 +37,18 @@ public class Program {
 
         System.out.println();
         System.out.print("Enter a deposit value: ");
-        double depositoAdicionar = scanner.nextDouble();
-        x.deposit(depositoAdicionar);
+        double depositValue = scanner.nextDouble();
+        x.deposit(depositValue);
         System.out.println("Updated account data:");
         System.out.println(x);
 
         System.out.println();
         System.out.print("Enter a withdraw value: ");
-        double depositoRetirar = scanner.nextDouble();
-        x.withdraw(depositoRetirar);
+        double withdrawValue = scanner.nextDouble();
+        x.withdraw(withdrawValue);
         System.out.println("Updated account data:");
         System.out.println(x);
 
+        scanner.close();
     }
 }
