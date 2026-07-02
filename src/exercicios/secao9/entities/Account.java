@@ -2,53 +2,55 @@ package exercicios.secao9.entities;
 
 public class Account {
 
-    private int numeroConta;
-    private String titularConta;
-    private double deposito;
+    private int number;
+    private String holder;
+    private double balance;
 
-    public Account(int numeroConta, String titularConta) {
-        this.numeroConta = numeroConta;
-        this.titularConta = titularConta;
-        this.deposito = 0;
+    public Account(int number, String holder) {
+        this.number = number;
+        this.holder = holder;
+        this.balance = 0;
     }
 
-    public int getNumeroConta() {
-        return numeroConta;
+    public Account(int number, String holder, double initialDeposit) {
+        this.number = number;
+        this.holder = holder;
+        deposit(initialDeposit); // encapsulado para caso a regra de negocio mude alterar em um só local
     }
 
-    public String getTitularConta() {
-        return titularConta;
+    public int getNumber() {
+        return number;
     }
 
-    public void setTitularConta(String titularConta) {
-        this.titularConta = titularConta;
+    public String getHolder() {
+        return holder;
     }
 
-    public double getDeposito() {
-        return deposito;
+    public void setHolder(String holder) {
+        this.holder = holder;
     }
 
-    public void setDeposito(double deposito) {
-        this.deposito = deposito;
+    public double getBalance() {
+        return balance;
     }
 
-    public void addDeposito (double x) {
-        deposito += x;
+    public void deposit(double amount) {
+        balance += amount;
     }
 
     private static final double TAXA_SAQUE = 5.0;
 
-    public void removeDeposito (double x) {
-        deposito -= x + TAXA_SAQUE;
+    public void withdraw(double amount) {
+        balance -= amount + TAXA_SAQUE;
     }
 
     public String toString() {
         return "Account " +
-                numeroConta +
+                number +
                 ", Holder: " +
-                titularConta +
+                holder +
                 ", Balance: $ " +
-                deposito;
+                balance;
     }
 
 }

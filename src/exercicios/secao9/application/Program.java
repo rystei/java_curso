@@ -27,7 +27,7 @@ public class Program {
         if (Objects.equals(initialDeposit, "y")) {
             System.out.print("Enter initial deposit value: ");
             double deposito = scanner.nextDouble();
-            x.addDeposito(deposito);
+            x.deposit(deposito);
         }
 
         System.out.println();
@@ -37,14 +37,14 @@ public class Program {
         System.out.println();
         System.out.print("Enter a deposit value: ");
         double depositoAdicionar = scanner.nextDouble();
-        x.addDeposito(depositoAdicionar);
+        x.deposit(depositoAdicionar);
         System.out.println("Updated account data:");
         System.out.println(x);
 
         System.out.println();
         System.out.print("Enter a withdraw value: ");
         double depositoRetirar = scanner.nextDouble();
-        x.removeDeposito(depositoRetirar);
+        x.withdraw(depositoRetirar);
         System.out.println("Updated account data:");
         System.out.println(x);
 
