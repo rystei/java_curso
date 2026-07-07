@@ -1,4 +1,4 @@
-package exercicios.secao10.vetores;
+package exercicios.secao10.vetores.ex1;
 
 import java.util.Locale;
 import java.util.Scanner;
