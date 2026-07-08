@@ -22,10 +22,29 @@ public class Alturas {
         int quantidade = scanner.nextInt();
         Pessoa[] vetor = new Pessoa[quantidade];
 
+        double alturaMedia = 0.0;
+
         for (int i = 0; i < vetor.length; i++) {
             scanner.nextLine();
             System.out.print("Dados da " + (i + 1) + "a pessoa");
+            System.out.println();
+
+            System.out.print("Nome: " );
+            String name = scanner.nextLine();
+
+            System.out.print("Idade: ");
+            int idade = scanner.nextInt();
+
+            System.out.print("Altura: ");
+            double altura = scanner.nextDouble();
+
+            vetor[i] = new Pessoa(name, idade, altura);
+
+            alturaMedia += vetor[i].getHeight() / vetor.length;
+
         }
+
+        System.out.println("Altura média: " + alturaMedia);
 
         scanner.close();
     }
