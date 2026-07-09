@@ -24,7 +24,7 @@ public class SomaVetores {
             vetor2[i] = scanner.nextInt();
         }
 
-        System.out.println("VALOR RESULTANTE:");
+        System.out.println("VALOR RESULTANTE: ");
 
         int[] soma = new int[vetor1.length];
         for (int i = 0; i < vetor1.length; i++) {
