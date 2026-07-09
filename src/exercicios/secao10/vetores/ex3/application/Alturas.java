@@ -7,10 +7,11 @@ import java.util.Scanner;
 
 public class Alturas {
 
+    private static final int IDADE_LIMITE = 16;
     public static void main(String[] args) {
 
         /*
-        Fazer um programa para ler nome, idade e altura de N pessoas, conforme exemplo. Depois, mostrar na
+        Fazer um programa para ler nome, idade e altura de N pessoas. Depois, mostrar na
         tela a altura média das pessoas, e mostrar também a porcentagem de pessoas com menos de 16 anos,
         bem como os nomes dessas pessoas caso houver.
          */
@@ -18,33 +19,53 @@ public class Alturas {
         Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
+
+        String name;
+        int quantidade, idade, menores;
+        double alturaMedia, altura, somaAlturas ,percentualMenores;
+
+
         System.out.print("Quantas pessoas serao digitadas? ");
-        int quantidade = scanner.nextInt();
+        quantidade = scanner.nextInt();
         Pessoa[] vetor = new Pessoa[quantidade];
 
-        double alturaMedia = 0.0;
+        somaAlturas = 0.0;
 
         for (int i = 0; i < vetor.length; i++) {
             scanner.nextLine();
             System.out.print("Dados da " + (i + 1) + "a pessoa");
             System.out.println();
-
             System.out.print("Nome: " );
-            String name = scanner.nextLine();
-
+            name = scanner.nextLine();
             System.out.print("Idade: ");
-            int idade = scanner.nextInt();
-
+            idade = scanner.nextInt();
             System.out.print("Altura: ");
-            double altura = scanner.nextDouble();
-
+            altura = scanner.nextDouble();
             vetor[i] = new Pessoa(name, idade, altura);
-
-            alturaMedia += vetor[i].getHeight() / vetor.length;
-
+            somaAlturas += altura;
         }
 
-        System.out.println("Altura média: " + alturaMedia);
+        alturaMedia = somaAlturas / vetor.length;
+
+        menores = 0;
+
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i].getAge() < IDADE_LIMITE) {
+                menores++;
+            }
+        }
+
+        percentualMenores = ((double) menores / vetor.length) * 100.0;
+
+        System.out.printf("\nAltura media = %.2f\n", alturaMedia);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", percentualMenores);
+
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i].getAge() < IDADE_LIMITE) {
+                System.out.println(vetor[i].getName());
+            }
+        }
+
 
         scanner.close();
     }
