@@ -40,5 +40,7 @@ public class MaisVelho {
             }
         }
         System.out.printf("PESSOA MAIS VELHA: %s\n", pessoas[posicaoMaior].getName());
+
+        scanner.close();
     }
 }
