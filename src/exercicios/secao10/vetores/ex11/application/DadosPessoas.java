@@ -19,10 +19,9 @@ public class DadosPessoas {
 
             System.out.print("Altura da " + (i + 1) + "a pessoa: ");
             double altura = scanner.nextDouble();
-            scanner.nextLine();
 
             System.out.print("Genero da " + (i + 1) + "a pessoa: ");
-            char genero = scanner.next().charAt(0);
+            char genero = Character.toUpperCase(scanner.next().charAt(0));
 
             pessoas[i] = new Pessoa(altura, genero);
         }
@@ -57,8 +56,11 @@ public class DadosPessoas {
             }
         }
 
-        double mediaMulheres = somaAlturaMulheres / numeroMulheres;
+        double mediaMulheres = 0;
 
+        if (numeroMulheres > 0) {
+            mediaMulheres = somaAlturaMulheres / numeroMulheres;
+        }
         System.out.printf("Menor altura = %.2f%n", menorAltura );
         System.out.printf("Maior altura = %.2f%n", maiorAltura );
         System.out.printf("Média altura mulheres = %.2f%n", mediaMulheres);
