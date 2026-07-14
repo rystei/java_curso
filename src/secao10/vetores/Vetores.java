@@ -1,4 +1,4 @@
-package secao10;
+package secao10.vetores;
 
 // =========================== VETORES (ARRAYS)
 // ===========================

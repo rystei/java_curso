@@ -1,6 +1,6 @@
-package secao10.application;
+package secao10.vetores.application;
 
-import secao10.entities.Product;
+import secao10.vetores.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package secao10.entities;
+package secao10.vetores.entities;
 
 public class Product {
 
