@@ -4,12 +4,10 @@ public class Estudante {
 
     private String nome;
     private String email;
-    private int quarto;
 
-    public Estudante(String nome, String email, int quarto) {
+    public Estudante(String nome, String email) {
         this.nome = nome;
         this.email = email;
-        this.quarto = quarto;
     }
 
     public String getNome() {
@@ -28,11 +26,8 @@ public class Estudante {
         this.email = email;
     }
 
-    public int getQuarto() {
-        return quarto;
-    }
-
-    public void setQuarto(int quarto) {
-        this.quarto = quarto;
+    @Override
+    public String toString() {
+        return  nome + ", " + email;
     }
 }

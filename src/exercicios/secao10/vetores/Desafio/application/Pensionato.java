@@ -31,12 +31,13 @@ public class Pensionato {
             int quarto = scanner.nextInt();
             scanner.nextLine();
 
-            quartos[quarto] = new Estudante(nome, email, quarto);
+            quartos[quarto] = new Estudante(nome, email);
         }
 
+        System.out.println("Quartos ocupados:");
         for (int i = 0; i < quartos.length; i++) {
             if (quartos[i] != null) {
-                System.out.println(i + ": " + quartos[i].getNome() + ", " + quartos[i].getEmail());            }
+                System.out.println(i + ": " + quartos[i]);            }
         }
 
         scanner.close();
