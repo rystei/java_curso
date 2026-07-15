@@ -1,6 +1,6 @@
 package secao10.Listas;
 
-public class Lista {
+public class ListaTeoria {
     /*
      -- Lista é uma estrutura de dados:
 
