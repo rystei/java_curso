@@ -3,6 +3,8 @@ package secao10.matrizes;
 import java.util.Locale;
 import java.util.Scanner;
 
+// teste
+
 public class Matriz {
     public static void main(String[] args) {
 
