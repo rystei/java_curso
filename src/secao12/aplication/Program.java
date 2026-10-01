@@ -1,7 +1,7 @@
-package secao12.enumeracao.aplication;
+package secao12.aplication;
 
-import secao12.enumeracao.entities.Order;
-import secao12.enumeracao.enums.OrderStatus;
+import secao12.entities.Order;
+import secao12.enums.OrderStatus;
 
 import java.util.Date;
 
