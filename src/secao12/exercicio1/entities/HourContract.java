@@ -1,6 +1,6 @@
 package secao12.exercicio1.entities;
 
-import secao11.date.Date;
+import java.util.Date;
 
 public class HourContract {
 
@@ -42,8 +42,7 @@ public class HourContract {
     }
 
     public double totalValue(){
-        double total = valuePerHour * hours;
-        return total;
+        return valuePerHour * hours;
     }
 
 }
