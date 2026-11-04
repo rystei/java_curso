@@ -57,13 +57,21 @@ public class Worker {
         contracts.remove(contract);
     }
 
-    public double income(Integer year, Integer month){
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    public double income(int year, int month){
         double sum = baseSalary;
         Calendar calendar = Calendar.getInstance();
         for (HourContract contract : contracts){
             calendar.setTime(contract.getDate());
-            Integer contract_year = calendar.get(Calendar.YEAR);
-            Integer contract_month = 1 + calendar.get(Calendar.MONTH);
+            int contract_year = calendar.get(Calendar.YEAR);
+            int contract_month = 1 + calendar.get(Calendar.MONTH);
             if (year == contract_year && month == contract_month) {
                 sum += contract.totalValue();
             }
